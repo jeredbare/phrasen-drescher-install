@@ -3,7 +3,7 @@
 # updates the system
 sudo apt update -y && sudo apt upgrade -y
 # installs dependencies
-sudo apt -y install gcc libssh2-1-dev libssl-dev libgpgme11-dev make
+sudo apt install gcc libssh2-1-dev libssl-dev libgpgme11-dev make -y
 # downloads the package
 sudo wget http://leidecker.info/projects/phrasendrescher/phrasendrescher-1.2.2b.tar.gz
 # untar the directory
